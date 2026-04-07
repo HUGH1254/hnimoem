@@ -9,11 +9,13 @@
     --color-7:#D9D9D999;
 }
 :root{
+    --color-text-nav:var(--color-6);
     --color-header:var(--color-5);
-    --color-btn: var(--color-1,#1E88E5);
-    --color-status-stop:var(--color-2,#FF6B6B);
-    --color-status-draft:var(--color-3,#90A4AE);
-    --color-btn-check-in:var(--)
+    --color-btn: var(--color-1);
+    --color-status-stop:var(--color-2);
+    --color-status-draft:var(--color-3);
+    --color-btn-check-in:var(--color-5);
+    --color-body:var(--color-4)
 }
 :root{
     --f2: 0.125rem;
@@ -51,20 +53,45 @@
 *{
     font-family: Inter;
 }
+body{
+    background: var(--color-body);
+}
 a{
     color: var(--color-6);
+}
+a:hover{
+    color: var(--color-1);
+    cursor: pointer;
+}
+p{
+    margin: 0;
+}
+
+select{
+    border: none;
+    font-size: var(--f13);
+    font-weight: var(--regular);
+    cursor: pointer;
+}
+.icon-13{
+    width: 13px;
+    height: 13px;
+    cursor: pointer;
 }
 .icon-14{
     width: 14px;
     height: 14px;
+    cursor: pointer;
 }
 .icon-18{
     width: 18px;
     height: 18px;
+    cursor: pointer;
 }
 .icon-30{
     width: 30px;
     height: 30px;
+    cursor: pointer;
 }
 .image{
     width: 100%;
