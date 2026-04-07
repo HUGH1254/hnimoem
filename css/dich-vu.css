@@ -1,0 +1,67 @@
+.header,.header__left,.info-company,.header__right,.header__right--check-in,.header__right--icon{
+    display: flex;
+    align-items: center;
+    background: var(--color-header);
+    justify-content: center;
+}
+.header{
+justify-content: space-between;
+padding-right: 15px;
+padding-left: 15px;
+}
+.header__left,.info-company{
+    justify-content: center;
+}
+select{
+    border: none;
+    font-size: var(--f13);
+    font-weight: var(--regular);
+}
+#info-company--name{
+    font-size: var(--f8);
+    font-weight: var(--medium);
+}
+.header__right{
+    gap:15px;
+}
+.info-company {
+    margin-right: 15px;
+    gap:7px;
+}
+.info-company--logo{
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: var(--color-7);
+}
+.info-company--name-company{
+    width:135px;
+}
+.header__left--text {
+    white-space: nowrap;
+    border-left: 1px solid var(--color-7) ;
+}
+.header__left--text a{
+    font-size: var(--f13);
+    font-weight: var(--light);
+    margin-left: 15px; 
+}
+.header__left--text a:hover{
+    font-weight: var(--medium);
+}
+.header__right--check-in{
+    min-width: 118px;
+    min-height: 30px;
+    border-radius: 10px;
+    border: 1px solid var(--color-7);
+}
+.header__right--text{
+    font-size: var(--f13);
+    font-weight: var(--light);
+}
+.header__right--icon{
+    gap:10px
+}
+.header__right--avt{
+    border-radius: 50px;
+    overflow: hidden;
+}
