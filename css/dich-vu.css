@@ -15,15 +15,14 @@
 .main-section__product--menu-item,
 .btn,
 .icon-search,
-.main-section__info-product,
 .main-section__info-product__left--search,
 .main-section__info-product__left,
 .main-section,
 .main-section__info-product__right--cus-panel,
 .main-section__info-product--modify,
 .main-section__info-product__right,
-.table__name-id,
-.main-section__info-product--table {
+.table__name-id
+{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,13 +95,13 @@
     padding-left: 15px;
     min-height: 45px;
     background-color: var(--color-header);
-    display: none;
 }
 
 .main-section {
     padding-right: 16px;
     padding-left: 16px;
     margin-top: 15px;
+    height: 100vh;
 }
 
 #info-company--name {
@@ -194,7 +193,7 @@
 }
 
 .main-section__info-product {
-    flex-direction: column;
+    min-height: 0;
     flex: 1;
     background-color: var(--color-info-product);
 }
@@ -245,7 +244,8 @@
 
 .main-section__info-product {
     border-radius: 10px;
-}
+    /* height: calc(100% - 53px); */
+} 
 
 .--btn-three-dots {
     padding: 8px;
@@ -254,12 +254,14 @@
 .main-section__info-product--table {
     max-width: 100%;
     overflow: auto;
-    max-height: 1000px;
+    position: relative;
+    /* height: calc(100% - 53px); */
 }
 
+.table thead th{
+    border: none;
+}
 .table {
-    position: relative;
-    height: 100%;
 }
 /* .main-section__info-product--table .table{
 } */
