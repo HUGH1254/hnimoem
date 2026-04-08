@@ -7,15 +7,26 @@
     --color-5:#FFFFFF;
     --color-6:#121212;
     --color-7:#D9D9D999;
+    --color-8:#D9D9D933;
+    --color-9:#D9D9D940;
+    --color-10:#DBDBDB40;
 }
 :root{
     --color-text-nav:var(--color-6);
     --color-header:var(--color-5);
     --color-btn: var(--color-1);
+    --color-status-start:var(--color-1);
     --color-status-stop:var(--color-2);
     --color-status-draft:var(--color-3);
     --color-btn-check-in:var(--color-5);
-    --color-body:var(--color-4)
+    --color-body:var(--color-4);
+    --color-info-product:var(--color-5);
+    --color-search-bar:var(--color-8);
+    --color-btn-filter:var(--color-8);
+    --color-main-section__info-product__right--cus-panel:var(--color-8);
+    --btn-three-dots:var(--color-8);
+    --font-size-global:var(--f13);
+
 }
 :root{
     --f2: 0.125rem;
@@ -55,12 +66,16 @@
 }
 body{
     background: var(--color-body);
+    line-height: normal;
+}
+.table{
+    margin: 0
 }
 a{
     color: var(--color-6);
 }
 a:hover{
-    color: var(--color-1);
+    color: var(--color-6);
     cursor: pointer;
 }
 p{
