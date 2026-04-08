@@ -64,9 +64,13 @@
 *{
     font-family: Inter;
 }
+html,body{
+    height: 100%;
+}
 body{
     background: var(--color-body);
     line-height: normal;
+    
 }
 .table{
     margin: 0
