@@ -1,0 +1,20 @@
+.pop-up__btn-three-dots--text{
+    padding: 10px 12px;
+    color: var(--color-6) ;
+    font-size: var(--f13);
+    font-weight: var(--thin);
+    margin-top: 3px;
+}
+.pop-up__btn-three-dots{
+    display: inline-block;
+    border-radius: 8px;
+    border: 1px solid #F0F0F3;
+    padding: 10px 12px;
+    min-width: 200px;
+}
+.pop-up__btn-three-dots--text:nth-child(1){
+    margin-top: 0;
+}
+.--delete {
+    color: var(--color-11);
+}

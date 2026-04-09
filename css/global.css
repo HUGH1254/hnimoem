@@ -1,0 +1,122 @@
+.header,
+.header__left,
+.main-section__info-product__left--filter,
+.icon-filter,
+.info,
+.header__right,
+.main-section__product--menu,
+.header__right--check-in,
+.header__right--icon,
+.info__logo,
+.main-section__info-product__left--modify,
+.icon-14,
+.icon-18,
+.icon-30,
+.main-section__product--menu-item,
+.btn,
+.icon-search,
+.main-section__info-product__left--search,
+.main-section__info-product__left,
+.main-section,
+.main-section__info-product__right--cus-panel,
+.main-section__info-product--modify,
+.main-section__info-product__right,
+.table__name-id,
+.icon-upload-avt,
+.icon-btn-add,
+.--file,
+.btn-draft-save,
+.icon-close{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__right--icon,
+.main-section__info-product__left,
+.main-section__info-product__right,
+.table__name-id,
+.--file {
+    gap: 10px;
+}
+
+.main-section__info-product__left--search,
+.main-section__info-product__left--filter,
+.table__name-id {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.table--name-id,
+.main-section__info-product--modify,
+.header {
+    justify-content: space-between;
+}
+
+.info,
+.header__right--check-in,
+.main-section__product--menu,
+.main-section__info-product__left--filter {
+    gap: 7px;
+}
+
+.main-section__info-product__right--cus-panel,
+.service-details .info {
+    gap: 5px;
+}
+
+.main-section__info-product__left--search,
+.main-section__info-product__right--cus-panel,
+.main-section__info-product__left--filter,
+.--btn-three-dots,
+.service-details .input,
+.icon-upload-img {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.header__left--text a,
+.header__left--text p {
+    margin-left: 15px;
+}
+
+.table td,
+.table th {
+    border-top: none;
+    vertical-align: middle;
+    min-height: 37px;
+}
+
+.table--price,
+.table--type,
+.header__left--text,
+.header__right--text,
+.main-section__product--menu,
+.btn-add,
+.main-section__info-product__right--cus-panel,
+.table th,
+.table__name-id--id,
+.table__name-id--name,
+.menu-item--text,
+.service-details .header__right--text,
+.info--text {
+    font-weight: var(--thin);
+}
+
+.main-section {
+    align-items: flex-start;
+}
+
+.main-section__info-product {
+    align-items: stretch;
+}
+
+.table__name-id {
+    justify-content: flex-start;
+}
+
+.main-section,
+.main-section__product-bar--info-input,
+.main-section__product-bar--price,
+.main-section__product-bar--service-detail{
+    margin-top: 15px;}

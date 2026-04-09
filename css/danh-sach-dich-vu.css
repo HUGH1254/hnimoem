@@ -1,0 +1,14 @@
+.service-list .main-section__info-product--table{
+    height: 100%
+}
+.service-list {
+    width: 100%;
+    margin-top: 7px;
+    margin-left: 4px;
+    margin-right: 4px;
+    height: 100%;
+}
+
+.icon-close {
+    padding: 5px;
+}

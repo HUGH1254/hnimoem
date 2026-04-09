@@ -1,0 +1,308 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>chi tiet dich vu</title>
+    <!-- Custom Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Syne:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="service-details">
+      <header class="header">
+        <div class="header__left">
+          <div class="info">
+            <div class="icon-back icon-14">
+              <img
+                src="assets/icon-back-black.svg"
+                alt="back"
+                class="image-icon"
+              />
+            </div>
+            <p class="info--text">Tên dịch vụ, sản phẩm</p>
+          </div>
+          <nav class="header__left--text">
+            <p>Người tạo: Dương Ngọc Huân</p>
+          </nav>
+        </div>
+        <div class="header__right">
+          <div class="header__right--check-in">
+            <p class="header__right--text">Hoạt động</p>
+            <div class="icon-14 icon-v">
+              <img src="assets/icon-v-grey.svg" alt="" class="image-icon" />
+            </div>
+          </div>
+          <div class="header__right--btn --btn-three-dots">
+            <div class="icon-14 icon-three-dots">
+              <img src="assets/icon-...-black.svg" alt="" class="image-icon" />
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main-section">
+        <section class="main-section__product">
+          <div class="main-section__product-bar">
+            <div class="main-section__product-bar--info">
+              <p class="main-section__product-bar--info-title">
+                Thông tin cơ bản
+              </p>
+              <div class="main-section__product-bar--info-input input-type">
+                <p class="main-section__product-bar--info-input-text">Loại</p>
+                <select name="" id="--type" class="--input --type">
+                  <option value="Việt nam">Việt nam</option>
+                  <option value="Việt nam">Việt nam</option>
+                  <option value="Việt nam">Việt nam</option>
+                  <option value="Việt nam">Việt nam</option>
+                  <option value="Việt nam">Việt nam</option>
+                </select>
+              </div>
+              <div class="main-section__product-bar--info-input input-country">
+                <p class="main-section__product-bar--info-input-text">
+                  Quốc gia
+                </p>
+                <select name="" id="--country" class="--input --country">
+                  <option value="Việt nam">Việt nam</option>
+                  <option value="Việt nam">Việt nam</option>
+                  <option value="Việt nam">Việt nam</option>
+                  <option value="Việt nam">Việt nam</option>
+                  <option value="Việt nam">Việt nam</option>
+                </select>
+              </div>
+            </div>
+            <div class="main-section__product-bar--price">
+              <p class="main-section__product-bar--info-title">Giá</p>
+              <div
+                class="main-section__product-bar--info-input input-cost-goods"
+              >
+                <p class="main-section__product-bar--info-input-text">
+                  Giá vốn (VND)
+                </p>
+                <input
+                  type="text"
+                  class="--input --cost-goods"
+                  placeholder="Nhập số"
+                />
+              </div>
+              <div
+                class="main-section__product-bar--info-input input-listed-price"
+              >
+                <p class="main-section__product-bar--info-input-text">
+                  Giá niêm yết (VND)
+                </p>
+                <input
+                  type="text"
+                  class="--input --listed-price"
+                  placeholder="Nhập số"
+                />
+              </div>
+              <div
+                class="main-section__product-bar--info-input input-goods-sold"
+              >
+                <p class="main-section__product-bar--info-input-text">
+                  Giá bán (VND)
+                </p>
+                <input
+                  type="text"
+                  class="--input --goods-sold"
+                  placeholder="Nhập số"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="main-section__info-product">
+          <p class="main-section__product-bar--info-title">
+            Chi tiết về dịch vụ
+          </p>
+          <div class="main-section__product-bar--service-detail">
+            <div
+              class="main-section__product-bar--info-input input-service-name"
+            >
+              <p class="main-section__product-bar--info-input-text">
+                Tên dịch vụ <span>(0/30)</span>
+              </p>
+              <input
+                type="text"
+                class="--input --service-name"
+                placeholder="Nhập tên sản phẩm"
+              />
+            </div>
+            <div
+              class="main-section__product-bar--info-input input-service-id"
+            >
+              <p class="main-section__product-bar--info-input-text">
+                Mã dịch vụ <span>(0/20)</span> 
+              </p>
+              <input
+                type="text"
+                class="--input --service-id"
+                placeholder="Nhập mã"
+              />
+            </div>
+            <div
+              class="main-section__product-bar--info-input input-detail-describe"
+            >
+              <p class="main-section__product-bar--info-input-text">
+                Mô tả chi tiết
+              </p>
+              <textarea
+                type="text"
+                class="--input --detail-describe"
+                placeholder="Vui lòng nhập mô tả"
+              ></textarea>
+              <p class="--character">0/1000</p>
+            </div>
+            <div
+              class="main-section__product-bar--info-input input-highlights"
+            >
+              <div class="main-section__product-bar--info-input-text">
+                <p class="--highlights-title">Điểm nổi bật</p>
+                <p class="--detail-highlights">
+                  Bạn phải nhập ít nhất 03 điểm nổi bật của sản phẩm, dịch vụ
+                  này
+                </p>
+              </div>
+                <div class="--highlights-bar"> 
+                    <input type="text" class="--input --highlights" placeholder="Ví dụ: abcz"/>
+                    <p class="--character">120</p>
+                </div>
+               <div class="--highlights-bar"> 
+                    <input type="text" class="--input --highlights" placeholder="Ví dụ: abcz"/>
+                    <p class="--character">120</p>
+                </div>
+              <div class="--highlights-bar"> 
+                    <input type="text" class="--input --highlights" placeholder="Ví dụ: abcz"/>
+                    <p class="--character">120</p>
+                </div>
+              <div class="--new-input">
+                <div class="icon-14 icon-btn-add btn">
+                  <img src="assets/icon-+-while.svg" alt="Thêm nội dung" />
+                </div>
+                <p>Thêm nội dung</p>
+              </div>
+            </div>
+            <div class="main-section__product-bar--info-input input-avt ">
+              <p class="main-section__product-bar--info-input-text">
+                Ảnh đại diện
+              </p>
+              <div class="main-section__product-bar--info-input-list">
+                <button href="" class="--upload-img btn">
+                  <div class="icon-25 icon-upload-img">
+                    <img
+                      src="assets/icon-+-black.svg"
+                      alt=""
+                      class="image-icon"
+                    />
+                  </div>
+                </button>
+                <button href="" class="--upload-img btn">
+                  <div class="icon-25 icon-upload-img">
+                    <img
+                      src="assets/icon-+-black.svg"
+                      alt=""
+                      class="image-icon"
+                    />
+                  </div>
+                </button>
+                <button href="" class="--upload-img btn">
+                  <div class="icon-25 icon-upload-img">
+                    <img
+                      src="assets/icon-+-black.svg"
+                      alt=""
+                      class="image-icon"
+                    />
+                  </div>
+                </button>
+                <button href="" class="--upload-img btn">
+                  <div class="icon-25 icon-upload-img">
+                    <img
+                      src="assets/icon-+-black.svg"
+                      alt=""
+                      class="image-icon"
+                    />
+                  </div>
+                </button>
+                <button href="" class="--upload-img btn">
+                  <div class="icon-25 icon-upload-img">
+                    <img
+                      src="assets/icon-+-black.svg"
+                      alt=""
+                      class="image-icon"
+                    />
+                  </div>
+                </button>
+                <button href="" class="--upload-img btn">
+                  <div class="icon-25 icon-upload-img">
+                    <img
+                      src="assets/icon-+-black.svg"
+                      alt=""
+                      class="image-icon"
+                    />
+                  </div>
+                </button>
+              </div>
+            </div>
+            <div class="main-section__product-bar--info-input input-img">
+              <p class="main-section__product-bar--info-input-text">
+                Ảnh chi tiết
+              </p>
+                    <div class="main-section__product-bar--info-input-list">  
+                        <div class="icon-60 icon-upload-img">
+                            <img src="img/a2.png" alt="" class="image" />
+                        </div>
+                 
+                        <div class="icon-60 icon-upload-img">
+                            <img src="img/a2.png" alt="" class="image" />
+                        </div>
+                        <div class="icon-60 icon-upload-img">
+                            <img src="img/a2.png" alt="" class="image" />
+                        </div>
+                        <div class="icon-60 icon-upload-img">
+                            <img src="img/a2.png" alt="" class="image" />
+                        </div>
+                        
+                    <button href="" class="--upload-img btn">
+                        <div class="icon-25 icon-upload-img">
+                            <img src="assets/icon-+-black.svg" alt="" class="image-icon"/>
+                        </div>
+                    </button>
+                    </div>
+            </div>
+            <div
+              class="main-section__product-bar--info-input input-file"
+            >
+              <p class="main-section__product-bar--info-input-text">
+                Tài liệu bán hàng
+              </p>
+              <div class="--file">
+                <div class="icon-16 icon-upload">
+                    <img src="assets/icon-upload-black.svg" alt="" class="image-icon">
+                </div>
+                <p >Kéo và thả hoặc <span>Duyệt</span> để tải lên</p>
+            </div>
+          </div>
+        </section>
+      </main>
+      <div class="btn-draft-save">
+            <button class="--draft btn">Lưu làm bản nháp</button>
+            <button class="--save btn">Lưu thông tin</button>
+    </div>
+    </div>
+    
+  </body>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+</html>
