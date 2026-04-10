@@ -22,7 +22,9 @@
 .main-section {
     padding-right: 16px;
     padding-left: 16px;
-    height: 100%;
+    height: calc(100% - 67px);
+    width: 100%;
+    position: relative;
 }
 
 #info--name {
@@ -40,7 +42,7 @@
 }
 
 .info__logo {
-    border-radius: 20px;
+    border-radius: 50%;
     overflow: hidden;
     flex-direction: column;
     background-color: var(--color-7);
@@ -71,6 +73,7 @@
     border-radius: 10px;
     border: 1px solid var(--color-7);
 }
+
 .header__right--icon {
     cursor: pointer;
 }
@@ -85,7 +88,7 @@
     background: var(--color-body);
 }
 
-.main-section__product--menu {
+.main-section__product__list--menu {
     color: var(--color-7);
     opacity: .6;
     padding-left: 5px;
@@ -93,7 +96,7 @@
     font-weight: var(--medium);
 }
 
-.main-section__product--menu-item {
+.main-section__product__list--menu-item {
     max-width: 153px;
     flex-direction: column;
     align-items: flex-start;
@@ -127,7 +130,8 @@
     outline: none;
     width: 100%;
 }
-.search-bar{
+
+.search-bar {
     min-width: 300px;
 }
 
@@ -151,6 +155,7 @@
 .main-section__info-product--modify {
     padding: 10px;
     border-bottom: 1px solid var(--color-7);
+    white-space: nowrap;
 }
 
 .main-section__info-product {
@@ -164,7 +169,7 @@
 }
 
 .main-section__info-product--table {
-    max-width: 100%;
+    min-width: 100%;
     overflow: auto;
     position: relative;
     height: calc(100% - 53px);
@@ -195,13 +200,15 @@
     font-weight: var(--regular);
     position: sticky;
     top: 0;
+    z-index: 2;
+    white-space: nowrap;
 }
 
 .table td {
-    padding: 13px 8px ;
+    padding: 13px 8px;
     margin-top: 10px;
     border-bottom: 1px solid var(--color-7);
-
+    white-space: nowrap;
 }
 
 .table--status.--status {
@@ -222,14 +229,16 @@
 
 .table__name-id--id {
     font-size: var(--f12);
+    white-space: nowrap;
 }
 
 .table__name-id--name {
     font-weight: var(--regular);
+    white-space: nowrap;
 }
 
-.--character{
-    content: "120";
+.--character {
+    content: "";
     opacity: .6;
     font-size: var(--text-primary);
     font-weight: var(--thin);
@@ -237,9 +246,16 @@
     bottom: 10px;
     right: 10px;
 }
-.input-detail-describe{
+
+.input-detail-describe {
     position: relative;
 }
-.--highlights-bar{
+
+.--highlights-bar {
     position: relative;
+}
+
+.menu,
+.main-section__product__menu {
+    display: none;
 }

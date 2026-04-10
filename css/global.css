@@ -4,7 +4,7 @@
 .icon-filter,
 .info,
 .header__right,
-.main-section__product--menu,
+.main-section__product__list--menu,
 .header__right--check-in,
 .header__right--icon,
 .info__logo,
@@ -12,7 +12,7 @@
 .icon-14,
 .icon-18,
 .icon-30,
-.main-section__product--menu-item,
+.main-section__product__list--menu-item,
 .btn,
 .icon-search,
 .main-section__info-product__left--search,
@@ -26,7 +26,8 @@
 .icon-btn-add,
 .--file,
 .btn-draft-save,
-.icon-close{
+.icon-close
+{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,7 +37,7 @@
 .main-section__info-product__left,
 .main-section__info-product__right,
 .table__name-id,
-.--file {
+.--file,.main-section__product {
     gap: 10px;
 }
 
@@ -55,7 +56,7 @@
 
 .info,
 .header__right--check-in,
-.main-section__product--menu,
+.main-section__product__list--menu,
 .main-section__info-product__left--filter {
     gap: 7px;
 }
@@ -91,7 +92,7 @@
 .table--type,
 .header__left--text,
 .header__right--text,
-.main-section__product--menu,
+.main-section__product__list--menu,
 .btn-add,
 .main-section__info-product__right--cus-panel,
 .table th,

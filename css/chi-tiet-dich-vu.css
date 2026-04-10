@@ -26,6 +26,7 @@
     margin-right: auto;
     margin-left: auto;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .service-details .main-section__product-bar {

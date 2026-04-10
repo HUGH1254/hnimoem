@@ -4,6 +4,7 @@
 @import url('css/popup--three-dots.css');
 @import url('css/chi-tiet-dich-vu.css');
 @import url('css/danh-sach-dich-vu.css');
+@import url('css/media.css');
 :root{ 
     --text-primary:var(--f13);
     --color-1:#1E88E5;
@@ -19,7 +20,7 @@
     --color-11:#D54033;
 }
 :root{
-    --color-text-nav:var(--color-6);
+    --color-text-nav:var(--color-1);
     --color-header:var(--color-5);
     --color-btn: var(--color-1);
     --color-status-start:var(--color-1);
@@ -81,15 +82,18 @@ body{
     line-height: normal;
     font-size: var(--text-primary);
 }
+img{max-width: 100%;}
 .table{
     margin: 0
 }
 a{
     color: var(--color-6);
+    
 }
 a:hover{
-    color: var(--color-6);
+    color: var(--color-1);
     cursor: pointer;
+    text-decoration: none;
 }
 p{
     margin: 0;
