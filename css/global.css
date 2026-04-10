@@ -29,7 +29,8 @@
 .icon-close,
 .popup-detail .add-new-service__title,
 .popup-detail__title,
-.input-number{
+.input-number,
+.add-new-service__title  {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -117,7 +118,9 @@
     align-items: stretch;
 }
 
-.table__name-id,.input-number {
+.table__name-id,
+.input-number,
+.main-section__product__list--menu {
     justify-content: flex-start;
 }
 
