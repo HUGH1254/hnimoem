@@ -77,12 +77,13 @@
 }
 html,body{
     height: 100%;
-     
+      position: relative;
 }
 body{
     background: var(--color-body);
     line-height: normal;
     font-size: var(--text-primary);
+    height: calc(100% - 60px);
 }
 img{max-width: 100%;}
 .table{

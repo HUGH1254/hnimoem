@@ -1,4 +1,4 @@
-.btn {
+.main-section .btn {
     line-height: normal;
     background-color: var(--color-btn);
     color: var(--color-5);
@@ -25,6 +25,7 @@
     height: calc(100% - 67px);
     width: 100%;
     position: relative;
+    margin-top: 60px;
 }
 
 #info--name {
@@ -51,7 +52,9 @@
 .info--name-company {
     width: 135px;
 }
-
+.info--name-company select:focus{
+outline: none;
+}
 .header__left--text {
     white-space: nowrap;
     border-left: 1px solid var(--color-7);
@@ -62,7 +65,7 @@
     margin-left: 15px;
 }
 
-.header__left--text a:hover {
+.header__left--text .active {
     font-weight: var(--medium);
     color: var(--color-text-nav);
 }
@@ -84,7 +87,7 @@
 }
 
 .main-section__product {
-    min-width: 190px;
+    width: 190px;
     background: var(--color-body);
 }
 
@@ -111,7 +114,6 @@
     min-height: 0;
     flex: 1;
     background-color: var(--color-info-product);
-    overflow: hidden;
 }
 
 .menu-item--text {
@@ -135,8 +137,9 @@
     min-width: 300px;
 }
 
-.btn-add {
+.main-section .btn-add {
     padding: 7px 10px;
+    height: 30px;
 }
 
 
@@ -160,7 +163,8 @@
 
 .main-section__info-product {
     border-radius: 10px;
-    height: 100%;
+    height: calc(100% + 60px);
+    overflow: hidden;
 }
 
 .--btn-three-dots {
@@ -172,7 +176,7 @@
     min-width: 100%;
     overflow: auto;
     position: relative;
-    height: calc(100% - 53px);
+    height:100% ;
 }
 
 .table thead th {
@@ -258,4 +262,7 @@
 .menu,
 .main-section__product__menu {
     display: none;
+}
+.btn-add .txt {
+    font-weight: var(--medium)
 }

@@ -14,6 +14,7 @@
 
 .service-details .header__right--check-in {
     min-width: 103px;
+    border: none;
 }
 
 .service-details .header__right--text {
@@ -28,11 +29,6 @@
     gap: 10px;
     flex-wrap: wrap;
 }
-
-.service-details .main-section__product-bar {
-    min-width: 400px;
-}
-
 .service-details .--input {
     display: inline-block;
     width: 100%;
@@ -110,11 +106,11 @@
     flex-wrap: wrap;
 }
 
-.--upload-img {
+.main-section__product-bar--info-input-list .--upload-img {
     min-width: 60px;
     min-height: 60px;
     padding: 17px;
-    background-color: var(--color-7);
+    background-color: #D9D9D940;
 }
 
 .--file {
@@ -140,6 +136,8 @@
 
 .btn-draft-save .btn {
     padding: 7px;
+    height: 30px;
+    font-size: var(--text-primary);
 }
 
 .btn-draft-save .--draft {
@@ -150,7 +148,16 @@
 .btn-draft-save .--save {
     color: var(--color-5);
     font-weight: var(--medium);
+    background:var(--color-1);
 }
 .main-section__product-bar--info-input-text span {
     opacity: .4;
+}
+.service-details .main-section__product
+{
+    width: 400px;
+}
+.--new-input .txt {
+    font-weight: var(--regular);
+    color: var(--color-1);
 }
