@@ -5,6 +5,8 @@
 @import url('css/chi-tiet-dich-vu.css');
 @import url('css/danh-sach-dich-vu.css');
 @import url('css/media.css');
+@import url('css/them-moi.css');
+@import url('css/chi-tiet.css');
 :root{ 
     --text-primary:var(--f13);
     --color-1:#1E88E5;

@@ -26,8 +26,10 @@
 .icon-btn-add,
 .--file,
 .btn-draft-save,
-.icon-close
-{
+.icon-close,
+.popup-detail .add-new-service__title,
+.popup-detail__title,
+.input-number{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,7 +39,8 @@
 .main-section__info-product__left,
 .main-section__info-product__right,
 .table__name-id,
-.--file,.main-section__product {
+.--file,
+.main-section__product {
     gap: 10px;
 }
 
@@ -50,7 +53,9 @@
 
 .table--name-id,
 .main-section__info-product--modify,
-.header {
+.header,
+.add-new-service__title,
+.popup-detail__title {
     justify-content: space-between;
 }
 
@@ -112,12 +117,13 @@
     align-items: stretch;
 }
 
-.table__name-id {
+.table__name-id,.input-number {
     justify-content: flex-start;
 }
 
 .main-section,
 .main-section__product-bar--info-input,
 .main-section__product-bar--price,
-.main-section__product-bar--service-detail{
-    margin-top: 15px;}
+.main-section__product-bar--service-detail {
+    margin-top: 15px;
+}

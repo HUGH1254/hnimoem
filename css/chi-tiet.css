@@ -1,0 +1,21 @@
+.popup-detail {
+    width: 530px;
+    height: 233px;
+    padding: 10px 20px ;
+    background: var(--color-5);
+    border-radius: 10px ;
+}
+.popup-detail .--input{
+    border: 1px solid #ced4da;
+    margin-top: 5px;
+} 
+.popup-detail .--input.--number{
+    width: auto;
+    margin-left: 20px;
+} 
+.popup-detail .main-section__product-bar--info-input,.popup-detail .btn-draft-save{
+    margin-top: 20px ;
+}
+.popup-detail .btn{
+    padding: 7px 15px ;
+} 

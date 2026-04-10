@@ -1,0 +1,37 @@
+.add-new-service .--input {
+    border: 1px solid #ced4da;
+    min-height: 35px;
+    border-radius: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-top: 5px;
+}
+.add-new-service__title{
+    font-size: var(--f16);
+    font-weight: var(--medium);
+}
+.add-new-service{
+    background: var(--color-5);
+    height: 100%;
+    width:100% ;
+    max-width: 500px;
+    padding: 20px;
+}
+.add-new-service .main-section__product-bar--info-input-text{
+    font-size: var(--f13);
+    font-weight: var(--thin);
+}
+.add-new-service .main-section__product-bar--info-input-text span {
+    opacity: .6;
+}
+.add-new-service .btn-draft-save{
+    margin-top: 15px;
+}
+.add-new-service__input{
+    margin-top: 30px;
+}
+.add-new-service .btn {
+    padding: 10px 15px ;
+    font-size: var(--f13);
+    font-weight: var(--regular);
+}
