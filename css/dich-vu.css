@@ -134,7 +134,7 @@ outline: none;
 }
 
 .search-bar {
-    min-width: 300px;
+    width: 300px;
 }
 
 .main-section .btn-add {
