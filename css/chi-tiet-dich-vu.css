@@ -45,7 +45,34 @@
     margin-top: 5px;
     resize: none;
 }
-
+select{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.main-section__product-bar--info-input.--box-select{
+    display: flex;
+    position: relative;
+    margin-top: 5px;
+}
+.main-section__product-bar--info-input.--box-select .--input{
+    margin: 0 ;
+}
+.main-section__product-bar--info-input.--box-select .icon-v{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-v img{
+    width: 70%;
+    height: 60%;
+    
+}
 .service-details .--input::placeholder {
     font-size: var(--f14);
     font-weight: var(--thin);
