@@ -7,6 +7,7 @@
 @import url('css/media.css');
 @import url('css/them-moi.css');
 @import url('css/chi-tiet.css');
+@import url('css/component.css');
 :root{ 
     --text-primary:var(--f13);
     --color-1:#1E88E5;

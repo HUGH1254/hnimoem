@@ -30,7 +30,8 @@
 .popup-detail .add-new-service__title,
 .popup-detail__title,
 .input-number,
-.add-new-service__title  {
+.add-new-service__title,
+.badges__list {
     display: flex;
     align-items: center;
     justify-content: center;
