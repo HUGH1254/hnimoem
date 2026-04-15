@@ -31,6 +31,18 @@
     --reddish:#E9706F;
     --trout:#4A5057;
     --american-diamond:#F3F6F9;
+    --silvery-white:#E4E4E4;
+    --black:#121212;
+}
+:root{   
+    --orange-primary-op:#FAC73D33;
+    --blue-primary-op:#4979E633;
+    --matte-blue-primary-op:#5F72BB33;
+    --aesthetic-green-primary-op:#70B17033;
+    --mosaic-blue-primary-op:#4BBBDD33;
+    --reddish-op:#E9706F33;
+    --trout-op:#4A505733;
+    --american-diamond-op:#E4E4E499;
 }   
 :root{
     --color-text-nav:var(--color-1);
