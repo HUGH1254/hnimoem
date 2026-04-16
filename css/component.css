@@ -34,11 +34,11 @@
     font-size: var(--f12);
     font-weight: var(--regular);
 }
-.label--text p{
+.--text p{
     font-size: var(--f15);
     font-weight: var(--regular);
 }
-.label--text span{
+.--text span{
     font-size: var(--f14);
     font-weight: var(--thin);
 }
@@ -129,4 +129,49 @@
 .__list .--black {
     border: 1px solid var(--color-6);
     background-color: var(--color-6);
+}
+.--icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #DBDBDB66;
+}
+.--icon-start{
+    justify-content: flex-start;
+}
+.--icon-end{
+    justify-content: flex-end;
+}
+.--icon p {
+    color: #121212;
+}
+.--un-bg{
+    background-color: unset;
+}
+.--tablet{
+    border-radius: 100px;
+}
+.__list .btn-add {
+    font-size: var(--f15);
+    font-weight: var(--medium);
+    background-color: #006CFE;
+    color: #FFFFFF;
+}
+.__list .btn-add .image-icon{
+    width: 60%;
+    height: 60%;
+}
+.--phone{
+    background-color: #006CFE;
+    border-radius: 50%;
+}
+.--mail-orange{
+    background-color: #FFA72233;
+    border-radius: 50%;
+}
+.--mail-blue{
+    background-color: #03A0EA33;
+    border-radius: 50%;
 }
